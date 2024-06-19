@@ -26,6 +26,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "6e5944ba_b3c83533",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-06-19T21:17:27Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "58b7a833_00fbb84c",
+      "range": {
+        "startLine": 11,
+        "startChar": 2,
+        "endLine": 12,
+        "endChar": 17
+      },
+      "revId": "a657fe41789eabe428f6decb30d64833ab4eea26",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "42da47b4_bfbfeb2d",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 2
@@ -54,6 +78,24 @@
       "writtenOn": "2024-06-19T19:28:19Z",
       "side": 1,
       "message": "Since memtag is set during boot it still requires a reboot before it acutally applies (this is how the feature currently works). I\u0027m assuming we don\u0027t want to force a reboot for it to apply immediately.",
+      "revId": "a657fe41789eabe428f6decb30d64833ab4eea26",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b841e595_9393d934",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-06-19T21:17:27Z",
+      "side": 1,
+      "message": "Yes we definitely don\u0027t want to force a reboot, can instead mention that a further reboot will be needed in the changelog. It\u0027d also give them a chance to turn it off from Settings before the reboot if they do desire.",
+      "parentUuid": "85a27832_d680e8f8",
       "revId": "a657fe41789eabe428f6decb30d64833ab4eea26",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
