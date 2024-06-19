@@ -48,7 +48,12 @@ bool UpdateProp(const char* prop_name, const misc_memtag_message& m) {
     AddItem(&prop_str, "memtag-kernel-once");
   if (CheckAndUnset(mode, MISC_MEMTAG_MODE_MEMTAG_OFF)) AddItem(&prop_str, "memtag-off");
   if (CheckAndUnset(mode, MISC_MEMTAG_MODE_FORCED)) AddItem(&prop_str, "forced");
-  if (prop_str.empty()) prop_str = "none";
+  if (prop_str.empty()) {
+      std::string persist_prop_str = android::base::GetProperty(
+              "persist." + std::string(prop_name), "");
+      prop_str = "none";
+      if (persist_prop_str == "") prop_str = "memtag";
+  }
   if (android::base::GetProperty(prop_name, "") != prop_str)
     android::base::SetProperty(prop_name, prop_str);
   if (mode) {
