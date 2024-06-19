@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "42da47b4_bfbfeb2d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2024-06-19T19:21:40Z",
+      "side": 1,
+      "message": "Just ran clang-format in PS2",
+      "revId": "a657fe41789eabe428f6decb30d64833ab4eea26",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
