@@ -1,6 +1,29 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "58b7a833_00fbb84c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-06-19T19:28:19Z",
+      "side": 1,
+      "message": "Is this the desired behaviour?",
+      "range": {
+        "startLine": 11,
+        "startChar": 2,
+        "endLine": 12,
+        "endChar": 17
+      },
+      "revId": "a657fe41789eabe428f6decb30d64833ab4eea26",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "42da47b4_bfbfeb2d",
@@ -14,6 +37,23 @@
       "writtenOn": "2024-06-19T19:21:40Z",
       "side": 1,
       "message": "Just ran clang-format in PS2",
+      "revId": "a657fe41789eabe428f6decb30d64833ab4eea26",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85a27832_d680e8f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2024-06-19T19:28:19Z",
+      "side": 1,
+      "message": "Since memtag is set during boot it still requires a reboot before it acutally applies (this is how the feature currently works). I\u0027m assuming we don\u0027t want to force a reboot for it to apply immediately.",
       "revId": "a657fe41789eabe428f6decb30d64833ab4eea26",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
