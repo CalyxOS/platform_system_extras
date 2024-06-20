@@ -98,6 +98,23 @@
       "parentUuid": "85a27832_d680e8f8",
       "revId": "a657fe41789eabe428f6decb30d64833ab4eea26",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eedf1139_8787dec4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-06-20T22:17:50Z",
+      "side": 1,
+      "message": "I do see\n\n`[persist.arm64.memtag.app.com.google.android.bluetooth]: [off]`\n\nBut I did a quick test with a bluetooth speaker and it was fine.",
+      "revId": "a657fe41789eabe428f6decb30d64833ab4eea26",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
